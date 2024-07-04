@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 1008px;
+}
+
+
+.h1_text {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+}
+
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    margin: 22px 0 42px;
+    gap: 8px;
+}
+
+
+.input_div input {
+    width: 321px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.btn {
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #0071E3;
+    font-size: 18px;
+    color: white;
+    border: none;
+
+}
+
+.active-btn {
+    border: none;
+    background-color: white;
+    color: #0071E3;
+    border: 2px solid #0071E3;
+}
+
+
+.big_box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.box {
+    max-width: 282px;
+    min-height: 90px;
+    border-radius: 10px;
+    border: 1px solid #0071E3;
+    margin-top: 18px;
+    margin-left: 50px;
+    background: #F0F0F0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.text_span {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 41px;
+    flex: 1;
+
+}
+
+.close {
+    width: 24px;
+    height: 24px;
+    border: 2px solid black;
+    margin-left: 90%;
+    align-self: flex-start;
+    border-radius: 15px;
+
+}
+
+.hour {
+    padding-left: 41px;
+    padding-top: 7px;
+    color: #0000008C;
+    display: flex;
+    font-style: italic;
+}
+
+
+.edit {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    margin-left: 90%;
+    border-radius: 14px;
+}
+
+
+.edit-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    min-height: 200px;
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: #F0F0F0;
+    padding-top: 50px;
+    padding-left: 70px;
+    backdrop-filter: blur(10px);
+    
+
+}
+
+.edit-input {
+    width: 321px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: Roboto;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-save {
+    width: 105px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #0071E3;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin-right: 10px
+    ;
+}
+
+.btn-cancel {
+    width: 105px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
